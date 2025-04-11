@@ -1,0 +1,22 @@
+best_accuracy: 0.8587740659713745
+hp:
+  Nudging_Mode: CN
+  T: 15
+  act_fn: hard_tanh
+  batch_size: 128
+  beta: 0.9999999999999999
+  beta_factor: 0.0
+  beta_ir: 0.0
+  dataset: CIFAR10
+  epochs: 25
+  k: 1.0
+  model: VGG13
+  optim:
+    w:
+      lr: 0.0001803744059559083
+      wd: 0.0004170181577701889
+    x:
+      lr: 0.5439904789965866
+      momentum: 1.0
+  se_flag: true
+study: ./Exp_new/results_ResNet/VGG13_updateUCNL_CIFAR10_best

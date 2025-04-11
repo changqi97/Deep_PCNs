@@ -1,0 +1,22 @@
+best_accuracy: 0.8669871687889099
+hp:
+  Nudging_Mode: SE
+  T: 13
+  act_fn: gelu
+  batch_size: 128
+  beta: 1.0
+  beta_factor: 1.0
+  beta_ir: 0.0
+  dataset: CIFAR10
+  epochs: 25
+  k: 1.0
+  model: VGG13
+  optim:
+    w:
+      lr: 0.00023388948011421462
+      wd: 0.00168254258615441
+    x:
+      lr: 0.5033685205655076
+      momentum: 1.0
+  se_flag: true
+study: ./Exp_new/results_ResNet/VGG13_updateUPCL_CIFAR10_best
